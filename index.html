@@ -5,255 +5,185 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="Arun Kumar Singh - Enterprise Cloud & AI Operations Leader. Inference engineering with vLLM, SGLang, AWS Bedrock and Azure AI Foundry, plus cloud infrastructure, Kubernetes, FinOps and security governance. Explore Pattern Vault, LLM Council Beta and EKS vLLM Inference.">
+    content="Arun Kumar Singh - Enterprise Cloud & AI Operations Leader. Inference engineering with vLLM, SGLang, AWS Bedrock and Azure AI Foundry, plus cloud infrastructure, Kubernetes, FinOps and security governance. Author of Platform Engineering: Zero to Hero, plus Pattern Vault, LLM Council Beta and EKS vLLM Inference.">
   <meta name="keywords"
-    content="Arun Kumar Singh, Cloud Engineer, Inference Engineering, vLLM, SGLang, AWS Bedrock, Azure AI Foundry, EKS, Kubernetes, AWS, Azure, Terraform, DevOps, SRE, CKA, Pattern Vault, LLM Council Beta, AI Agents, LLMOps, FinOps">
+    content="Arun Kumar Singh, Cloud Engineer, Platform Engineering, Inference Engineering, vLLM, SGLang, AWS Bedrock, Azure AI Foundry, EKS, Kubernetes, AWS, Azure, Terraform, DevOps, SRE, CKA, Pattern Vault, LLM Council Beta, AI Agents, LLMOps, FinOps">
   <meta name="author" content="Arun Kumar Singh">
+  <meta name="theme-color" content="#f7f7f5">
   <title>Arun Kumar Singh | Enterprise Cloud & AI Operations Leader</title>
 
   <!-- Open Graph / Social Sharing Metadata -->
   <meta property="og:title" content="Arun Kumar Singh | Enterprise Cloud & AI Operations Leader">
   <meta property="og:description"
-    content="Sleek, modern portfolio of Arun Kumar Singh showcasing enterprise operations across AWS & Azure, security governance, FinOps, AI-agent operations, and featured open-source work.">
+    content="Portfolio of Arun Kumar Singh: enterprise cloud operations across AWS & Azure, security governance, FinOps, AI inference, and open-source work including Platform Engineering: Zero to Hero.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://arunksingh16.github.io/">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- Background Gradients -->
-  <div class="bg-gradient-glow" id="gradient-glow"></div>
-  <div class="bg-grid" id="ambient-grid"></div>
-
   <!-- Header Navigation -->
-  <header id="main-header">
-    <div class="nav-container">
-      <a href="#" class="logo" id="site-logo">
-        ~/arun-kumar-singh<span class="cursor"></span>
+  <header class="site-header" id="main-header">
+    <nav class="nav container" aria-label="Main">
+      <a href="#top" class="logo" id="site-logo">
+        <span class="logo-mark" aria-hidden="true">AS</span>
+        <span class="logo-text">Arun Kumar Singh</span>
       </a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="navigation-list"
+        aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
       <ul class="nav-links" id="navigation-list">
-        <li><a href="#about-section">About</a></li>
-        <li><a href="#skills-section">Skills</a></li>
         <li><a href="#projects-section">Projects</a></li>
+        <li><a href="#skills-section">Skills</a></li>
         <li><a href="#experience-section">Experience</a></li>
-        <li><a href="#education-section">Education & Certs</a></li>
-        <li><a href="#connect-section">Connect</a></li>
+        <li><a href="#education-section">Certifications</a></li>
+        <li><a href="#connect-section" class="nav-cta">Get in touch</a></li>
       </ul>
-    </div>
+    </nav>
   </header>
 
-  <!-- Hero & Console Section -->
-  <section class="hero" id="home-section">
-    <div class="hero-badge" id="availability-badge">⚡ INFERENCE ENGINEERING: vLLM, SGLang & MANAGED LLM SERVICES</div>
-    <h1 class="hero-title" id="primary-heading">
-      Enterprise Cloud & <br><span class="grad">AI Operations Leader</span>
-    </h1>
-    <p class="hero-subtitle" id="primary-description">
-      Principal Cloud Engineer with 17 years building and leading cloud operations across AWS, Azure, and GCP.
-      Specializing in mission-critical platforms, security-by-design, governance, FinOps, and LLM inference engineering with vLLM, SGLang, AWS Bedrock, and Azure AI Foundry.
-    </p>
+  <main id="top">
 
-    <div class="hero-ctas" id="hero-actions">
-      <a href="#projects-section" class="btn btn-primary" id="cta-view-projects">
-        View Showcase
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-          stroke-linecap="round" stroke-linejoin="round">
-          <line x1="5" y1="12" x2="19" y2="12"></line>
-          <polyline points="12 5 19 12 12 19"></polyline>
-        </svg>
+    <!-- Hero -->
+    <section class="hero container" id="home-section">
+      <div class="hero-text">
+        <p class="eyebrow" id="availability-badge"><span class="pulse" aria-hidden="true"></span>Inference engineering:
+          vLLM, SGLang &amp; managed LLM services</p>
+        <h1 class="hero-title" id="primary-heading">
+          Enterprise Cloud &amp; <span class="accent">AI Operations Leader</span>
+        </h1>
+        <p class="hero-subtitle" id="primary-description">
+          Principal Cloud Engineer with 17 years building and leading cloud operations across AWS, Azure, and GCP.
+          Specializing in mission-critical platforms, security-by-design, governance, FinOps, and LLM inference
+          engineering with vLLM, SGLang, AWS Bedrock, and Azure AI Foundry.
+        </p>
+        <div class="hero-ctas" id="hero-actions">
+          <a href="#projects-section" class="btn btn-primary" id="cta-view-projects">View projects</a>
+          <a href="#connect-section" class="btn btn-ghost" id="cta-connect">Get in touch</a>
+        </div>
+      </div>
+
+      <!-- Currently building: long-running learning project -->
+      <a class="now-card reveal" href="https://arunksingh16.github.io/platform-engineer-zero-to-hero" target="_blank"
+        rel="noopener" id="now-building-card">
+        <span class="now-label">Currently building</span>
+        <span class="now-title">Platform Engineering: Zero to Hero</span>
+        <span class="now-desc">A free, self-guided learning path from networking basics to running production
+          Kubernetes and AI inference platforms.</span>
+        <span class="now-meta">
+          <span><strong>11</strong> published tracks</span>
+          <span><strong>Labs</strong> &amp; roadmaps</span>
+        </span>
+        <span class="now-link">Open the course <span aria-hidden="true">→</span></span>
       </a>
-      <a href="#connect-section" class="btn btn-secondary" id="cta-connect">Get In Touch</a>
-    </div>
+    </section>
 
-
-    <!-- Quick Stats Grid -->
-    <div class="stats-grid reveal" id="stats-dashboard">
-      <div class="stat-card" id="stat-years">
-        <div class="stat-num">17 Yrs</div>
-        <div class="stat-label">Cloud Operations Experience</div>
-      </div>
-      <div class="stat-card" id="stat-k8s">
-        <div class="stat-num">50+</div>
-        <div class="stat-label">Engineers Led (Director Level)</div>
-      </div>
-      <div class="stat-card" id="stat-automation">
-        <div class="stat-num">99.9%</div>
-        <div class="stat-label">Regulated Cloud Estate Uptime</div>
-      </div>
-      <div class="stat-card" id="stat-oss">
-        <div class="stat-num">10%</div>
-        <div class="stat-label">Year-over-Year Cost Reduction</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About and Skills Section -->
-  <section class="section" id="skills-section">
-    <div class="section-header reveal">
-      <span class="section-tag">ENGINEERING PROFILE</span>
-      <h2 class="section-title">Core <span class="grad">Competencies</span></h2>
-    </div>
-
-    <div class="skills-container reveal" id="technical-skills-dashboard">
-
-      <!-- Strategic Leadership & Platform Governance (Director/Head of Cloud Target) -->
-      <div class="skills-category featured" id="skills-cat-leadership">
-        <h3 class="skills-cat-title">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-            <circle cx="9" cy="7" r="4"></circle>
-            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-          </svg>
-          Enterprise Leadership & Strategy (Head of Cloud & Platforms / Director Target)
-        </h3>
-        <div class="skills-list">
-          <div class="skill-tag"><span>Cloud Strategy & Operating Models</span></div>
-          <div class="skill-tag"><span>Scaling 30+ to 50+ Engineers Organizations</span></div>
-          <div class="skill-tag"><span>Executive & Board Audit Engagements</span></div>
-          <div class="skill-tag"><span>Multi-£M Budget & FinOps Leadership</span></div>
-          <div class="skill-tag"><span>Compliance Frameworks (ISO27001, SOC2)</span></div>
-          <div class="skill-tag"><span>Platform Maturity Programs (OpsSpectrum)</span></div>
-          <div class="skill-tag"><span>Cross-Functional Executive Collaboration</span></div>
-          <div class="skill-tag"><span>Vendor & Tool Strategy & Contract Alignment</span></div>
+    <!-- Quick Stats -->
+    <section class="container" aria-label="Highlights">
+      <div class="stats-grid reveal" id="stats-dashboard">
+        <div class="stat-card" id="stat-years">
+          <div class="stat-num">17 yrs</div>
+          <div class="stat-label">Cloud operations experience</div>
+        </div>
+        <div class="stat-card" id="stat-k8s">
+          <div class="stat-num">50+</div>
+          <div class="stat-label">Engineers led (director level)</div>
+        </div>
+        <div class="stat-card" id="stat-automation">
+          <div class="stat-num">99.9%</div>
+          <div class="stat-label">Regulated cloud estate uptime</div>
+        </div>
+        <div class="stat-card" id="stat-oss">
+          <div class="stat-num">10%</div>
+          <div class="stat-label">Year-over-year cost reduction</div>
         </div>
       </div>
+    </section>
 
-      <!-- Cloud & Platform Engineering -->
-      <div class="skills-category" id="skills-cat-iac">
-        <h3 class="skills-cat-title">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-            stroke-linejoin="round">
-            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
-            <polyline points="2 17 12 22 22 17"></polyline>
-            <polyline points="2 12 12 17 22 12"></polyline>
-          </svg>
-          Cloud & Platform Engineering
-        </h3>
-        <div class="skills-list">
-          <div class="skill-tag"><span>AWS (Primary)</span></div>
-          <div class="skill-tag"><span>Azure</span></div>
-          <div class="skill-tag"><span>GCP</span></div>
-          <div class="skill-tag"><span>IaC (Terraform / CDK / Bicep)</span></div>
-          <div class="skill-tag"><span>Kubernetes</span></div>
-          <div class="skill-tag"><span>Reference Architectures</span></div>
-        </div>
+    <!-- Open Source Showcase -->
+    <section class="section container" id="projects-section">
+      <div class="section-header reveal">
+        <p class="section-tag">Open source</p>
+        <h2 class="section-title">Featured projects</h2>
       </div>
 
-      <!-- SRE, Resilience & Observability -->
-      <div class="skills-category" id="skills-cat-cloud">
-        <h3 class="skills-cat-title">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-            stroke-linejoin="round">
-            <line x1="18" y1="20" x2="18" y2="10"></line>
-            <line x1="12" y1="20" x2="12" y2="4"></line>
-            <line x1="6" y1="20" x2="6" y2="14"></line>
-          </svg>
-          SRE & Observability
-        </h3>
-        <div class="skills-list">
-          <div class="skill-tag"><span>SLIs / SLOs / Error Budgets</span></div>
-          <div class="skill-tag"><span>MTTR Reduction</span></div>
-          <div class="skill-tag"><span>High Availability (HA/DR)</span></div>
-          <div class="skill-tag"><span>Mission-Critical Workloads</span></div>
-          <div class="skill-tag"><span>New Relic</span></div>
-          <div class="skill-tag"><span>CloudWatch & Azure Monitor</span></div>
-        </div>
-      </div>
-
-      <!-- AI, LLMOps & MCP -->
-      <div class="skills-category" id="skills-cat-aiops">
-        <h3 class="skills-cat-title">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-            stroke-linejoin="round">
-            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-            <line x1="9" y1="9" x2="15" y2="9"></line>
-            <line x1="9" y1="13" x2="15" y2="13"></line>
-            <line x1="9" y1="17" x2="13" y2="17"></line>
-          </svg>
-          AI Inference & LLMOps
-        </h3>
-        <div class="skills-list">
-          <div class="skill-tag"><span>vLLM (Primary Inference Engine)</span></div>
-          <div class="skill-tag"><span>SGLang</span></div>
-          <div class="skill-tag"><span>Continuous Batching</span></div>
-          <div class="skill-tag"><span>KV-Cache Management</span></div>
-          <div class="skill-tag"><span>Quantization (AWQ / GPTQ / FP8)</span></div>
-          <div class="skill-tag"><span>LLM Inference Serving & Optimization</span></div>
-          <div class="skill-tag"><span>AWS Bedrock</span></div>
-          <div class="skill-tag"><span>Azure AI Foundry</span></div>
-          <div class="skill-tag"><span>MCP Framework</span></div>
-          <div class="skill-tag"><span>AI Agent Deployments</span></div>
-          <div class="skill-tag"><span>LLMOps & MLOps</span></div>
-          <div class="skill-tag"><span>Latency SLOs for LLMs</span></div>
-        </div>
-      </div>
-
-      <!-- Governance, Security & FinOps -->
-      <div class="skills-category" id="skills-cat-ops">
-        <h3 class="skills-cat-title">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-          </svg>
-          Governance, Security & FinOps
-        </h3>
-        <div class="skills-list">
-          <div class="skill-tag"><span>Security-by-Design</span></div>
-          <div class="skill-tag"><span>Risk & Audit (ISO27001 / SOC2)</span></div>
-          <div class="skill-tag"><span>Policy-as-Code</span></div>
-          <div class="skill-tag"><span>Cost Governance & Rightsizing</span></div>
-          <div class="skill-tag"><span>Multi-£M Spend Optimization</span></div>
-          <div class="skill-tag"><span>Director-level Leadership</span></div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Open Source Showcase -->
-  <section class="section" id="projects-section">
-    <div class="section-header reveal">
-      <span class="section-tag">OPEN SOURCE EXPOSÉ</span>
-      <h2 class="section-title">Featured <span class="grad">Repositories</span></h2>
-    </div>
-
-    <div class="projects-showcase" id="projects-showcase-container">
-
-      <!-- Project 1: Pattern Vault -->
-      <div class="project-show-card reveal" id="project-card-pattern-vault">
-        <div class="project-side-banner">
-          <div class="project-icon-wrapper">📦</div>
-          <div class="project-metrics">
-            <div class="project-metric">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polygon
-                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
-                </polygon>
-              </svg>
-              <span>8 Stars</span>
-            </div>
-            <div class="project-metric">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path
-                  d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
-                </path>
-                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                <line x1="12" y1="22.08" x2="12" y2="12"></line>
-              </svg>
-              <span>Active</span>
+      <!-- Featured: Platform Engineering Zero to Hero -->
+      <article class="feature-card reveal" id="project-card-platform-engineer-zero-to-hero">
+        <div class="feature-body">
+          <div class="project-head">
+            <span class="project-icon" aria-hidden="true">🧭</span>
+            <div>
+              <h3 class="project-title">Platform Engineering: Zero to Hero</h3>
+              <span class="project-badge">LEARNING PATH / KUBERNETES / AI INFRA</span>
             </div>
           </div>
+          <p class="project-desc">
+            A practical, self-guided learning path for platform engineering that I have been building over the long
+            run. It moves from foundational concepts to operating production systems, with each track written as
+            hands-on lessons rather than slide notes.
+          </p>
+          <ul class="project-highlights">
+            <li>Eleven published tracks: Networking, Kubernetes fundamentals and production engineering, CNI, Ingress
+              and service mesh, OpenShift, AKS, Observability, Code analysis, AI platform and inference engineering.
+            </li>
+            <li>Production Kubernetes modules cover etcd, IAM, policy, upgrades and incidents, with executable labs and
+              recovery evidence.</li>
+            <li>Inference engineering lessons on roofline analysis, paged KV cache, measurement and SGLang versus vLLM.
+            </li>
+            <li>Plain static site with no build step, published on GitHub Pages.</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-pill">Kubernetes</span>
+            <span class="tech-pill">Networking</span>
+            <span class="tech-pill">OpenShift</span>
+            <span class="tech-pill">AKS</span>
+            <span class="tech-pill">OpenTelemetry</span>
+            <span class="tech-pill">vLLM</span>
+            <span class="tech-pill">SGLang</span>
+          </div>
+          <div class="project-links">
+            <a href="https://arunksingh16.github.io/platform-engineer-zero-to-hero" target="_blank" rel="noopener"
+              class="btn btn-primary btn-sm" id="pe-course-link">View course</a>
+            <a href="https://github.com/arunksingh16/platform-engineer-zero-to-hero" target="_blank" rel="noopener"
+              class="btn btn-ghost btn-sm" id="pe-github-link">GitHub code</a>
+          </div>
         </div>
-        <div class="project-details">
-          <div class="project-header-row">
-            <h3 class="project-title-name">Pattern Vault</h3>
-            <span class="project-badge">PYTHON / VITE / MCP</span>
+        <div class="feature-tracks" aria-label="Course tracks">
+          <p class="tracks-title">Tracks</p>
+          <ol class="tracks-list">
+            <li>Networking fundamentals</li>
+            <li>Kubernetes fundamentals</li>
+            <li>Kubernetes production engineering</li>
+            <li>Pod networking &amp; the CNI</li>
+            <li>Ingress, gateways &amp; service mesh</li>
+            <li>OpenShift for senior SREs</li>
+            <li>AKS production operations</li>
+            <li>Observability</li>
+            <li>Code analysis</li>
+            <li>AI platform engineering</li>
+            <li>Inference engineering</li>
+          </ol>
+        </div>
+      </article>
+
+      <div class="projects-grid" id="projects-showcase-container">
+
+        <!-- Pattern Vault -->
+        <article class="project-card reveal" id="project-card-pattern-vault">
+          <div class="project-head">
+            <span class="project-icon" aria-hidden="true">📦</span>
+            <div>
+              <h3 class="project-title">Pattern Vault</h3>
+              <span class="project-badge">PYTHON / VITE / MCP</span>
+            </div>
+            <span class="project-meta">★ 8</span>
           </div>
           <p class="project-desc">
             An advanced tool that scans software repositories, extracts code chunks using tree-sitter, and classifies
@@ -261,34 +191,10 @@
             auto-retrieval.
           </p>
           <ul class="project-highlights">
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-              Uses tree-sitter to chunk functions, methods, and classes with precision grammar maps.
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-              Leverages LLM models (Anthropic, AWS Bedrock, Ollama) to rate and index quality metrics.
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-              Features an HTTP/stdio FastMCP server so Claude can query local patterns while pair programming.
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-              A stunning custom React dashboard with Deep Analytics of engineering pattern ingestion.
-            </li>
+            <li>Uses tree-sitter to chunk functions, methods, and classes with precision grammar maps.</li>
+            <li>Leverages LLM models (Anthropic, AWS Bedrock, Ollama) to rate and index quality metrics.</li>
+            <li>Features an HTTP/stdio FastMCP server so Claude can query local patterns while pair programming.</li>
+            <li>A custom React dashboard with deep analytics of engineering pattern ingestion.</li>
           </ul>
           <div class="project-tech">
             <span class="tech-pill">Python</span>
@@ -300,49 +206,20 @@
             <span class="tech-pill">Anthropic API</span>
           </div>
           <div class="project-links">
-            <a href="https://github.com/arunksingh16/pattern-vault" target="_blank" class="btn btn-secondary btn-sm"
-              id="pv-github-link">
-              <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path
-                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-              </svg>
-              GitHub Code
-            </a>
+            <a href="https://github.com/arunksingh16/pattern-vault" target="_blank" rel="noopener"
+              class="text-link" id="pv-github-link">GitHub code <span aria-hidden="true">→</span></a>
           </div>
-        </div>
-      </div>
+        </article>
 
-      <!-- Project 2: LLM Council Beta -->
-      <div class="project-show-card reveal" id="project-card-llm-council-beta">
-        <div class="project-side-banner">
-          <div class="project-icon-wrapper">🏛️</div>
-          <div class="project-metrics">
-            <div class="project-metric">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polygon
-                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
-                </polygon>
-              </svg>
-              <span>1 Star</span>
+        <!-- LLM Council Beta -->
+        <article class="project-card reveal" id="project-card-llm-council-beta">
+          <div class="project-head">
+            <span class="project-icon" aria-hidden="true">🏛️</span>
+            <div>
+              <h3 class="project-title">LLM Council Beta</h3>
+              <span class="project-badge">PYTHON / AGENTS / BEDROCK</span>
             </div>
-            <div class="project-metric">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path
-                  d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
-                </path>
-                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                <line x1="12" y1="22.08" x2="12" y2="12"></line>
-              </svg>
-              <span>Active</span>
-            </div>
-          </div>
-        </div>
-        <div class="project-details">
-          <div class="project-header-row">
-            <h3 class="project-title-name">LLM Council Beta</h3>
-            <span class="project-badge">PYTHON / AGENTS / BEDROCK</span>
+            <span class="project-meta">★ 1</span>
           </div>
           <p class="project-desc">
             Instead of asking a single LLM (like ChatGPT or Claude) for an answer, LLM Council Beta assembles a council
@@ -350,30 +227,12 @@
             that leverages collective intelligence.
           </p>
           <ul class="project-highlights">
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-              <strong>Stage 1 (Generation)</strong>: Multiple models independently answer your question to bring diverse
-              perspectives.
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-              <strong>Stage 2 (Peer-Review)</strong>: Models anonymously peer-review each other's answers to
-              cross-examine and identify gaps.
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-              <strong>Stage 3 (Synthesis)</strong>: A Chairman model synthesizes the reviewed responses into a balanced,
-              vetted final answer.
-            </li>
+            <li><strong>Stage 1 (Generation)</strong>: Multiple models independently answer your question to bring
+              diverse perspectives.</li>
+            <li><strong>Stage 2 (Peer-Review)</strong>: Models anonymously peer-review each other's answers to
+              cross-examine and identify gaps.</li>
+            <li><strong>Stage 3 (Synthesis)</strong>: A Chairman model synthesizes the reviewed responses into a
+              balanced, vetted final answer.</li>
           </ul>
           <div class="project-tech">
             <span class="tech-pill">Python</span>
@@ -384,76 +243,30 @@
             <span class="tech-pill">Docker</span>
           </div>
           <div class="project-links">
-            <a href="https://github.com/arunksingh16/llm-council-beta" target="_blank" class="btn btn-secondary btn-sm"
-              id="council-github-link">
-              <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path
-                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-              </svg>
-              GitHub Code
-            </a>
+            <a href="https://github.com/arunksingh16/llm-council-beta" target="_blank" rel="noopener"
+              class="text-link" id="council-github-link">GitHub code <span aria-hidden="true">→</span></a>
           </div>
-        </div>
-      </div>
+        </article>
 
-      <!-- Project 3: zshforge -->
-      <div class="project-show-card reveal" id="project-card-zshforge">
-        <div class="project-side-banner">
-          <div class="project-icon-wrapper">🐚</div>
-          <div class="project-metrics">
-            <div class="project-metric">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polygon
-                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
-                </polygon>
-              </svg>
-              <span>5 Stars</span>
+        <!-- zshforge -->
+        <article class="project-card reveal" id="project-card-zshforge">
+          <div class="project-head">
+            <span class="project-icon" aria-hidden="true">🐚</span>
+            <div>
+              <h3 class="project-title">zshforge</h3>
+              <span class="project-badge">SHELL / ZSH / FRAMEWORK</span>
             </div>
-            <div class="project-metric">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path
-                  d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
-                </path>
-                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                <line x1="12" y1="22.08" x2="12" y2="12"></line>
-              </svg>
-              <span>Active</span>
-            </div>
-          </div>
-        </div>
-        <div class="project-details">
-          <div class="project-header-row">
-            <h3 class="project-title-name">zshforge</h3>
-            <span class="project-badge">SHELL / ZSH / FRAMEWORK</span>
+            <span class="project-meta">★ 5</span>
           </div>
           <p class="project-desc">
             A minimal, fast zsh framework that stays out of your way. Built natively for maximum speed, enabling
             developers to build, bundle, and optimize their shell setups with modular loading and zero startup lag.
           </p>
           <ul class="project-highlights">
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-              Extremely lightweight architecture keeping shell startup times under 15 milliseconds.
+            <li>Extremely lightweight architecture keeping shell startup times under 15 milliseconds.</li>
+            <li>Zero external dependencies, utilising native zsh capabilities, parameter expansions, and core modules.
             </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-              Zero external dependencies, utilising native zsh capabilities, parameter expansions, and core modules.
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-              Clean modular framework allowing flexible theme mapping, smart completions, and custom prompts.
-            </li>
+            <li>Clean modular framework allowing flexible theme mapping, smart completions, and custom prompts.</li>
           </ul>
           <div class="project-tech">
             <span class="tech-pill">Shell Scripting</span>
@@ -463,83 +276,29 @@
             <span class="tech-pill">Performance Tuning</span>
           </div>
           <div class="project-links">
-            <a href="https://github.com/arunksingh16/zshforge" target="_blank" class="btn btn-secondary btn-sm"
-              id="zshforge-github-link">
-              <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path
-                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-              </svg>
-              GitHub Code
-            </a>
+            <a href="https://github.com/arunksingh16/zshforge" target="_blank" rel="noopener" class="text-link"
+              id="zshforge-github-link">GitHub code <span aria-hidden="true">→</span></a>
           </div>
-        </div>
-      </div>
+        </article>
 
-      <!-- Project 4: EKS vLLM Inference -->
-      <div class="project-show-card reveal" id="project-card-eks-vllm-inference">
-        <div class="project-side-banner">
-          <div class="project-icon-wrapper">🚀</div>
-          <div class="project-metrics">
-            <div class="project-metric">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polygon
-                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
-                </polygon>
-              </svg>
-              <span>vLLM</span>
+        <!-- EKS vLLM Inference -->
+        <article class="project-card reveal" id="project-card-eks-vllm-inference">
+          <div class="project-head">
+            <span class="project-icon" aria-hidden="true">🚀</span>
+            <div>
+              <h3 class="project-title">EKS vLLM Inference</h3>
+              <span class="project-badge">EKS / vLLM / CDK</span>
             </div>
-            <div class="project-metric">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path
-                  d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
-                </path>
-                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                <line x1="12" y1="22.08" x2="12" y2="12"></line>
-              </svg>
-              <span>EKS</span>
-            </div>
-          </div>
-        </div>
-        <div class="project-details">
-          <div class="project-header-row">
-            <h3 class="project-title-name">EKS vLLM Inference</h3>
-            <span class="project-badge">EKS / vLLM / CDK</span>
           </div>
           <p class="project-desc">
             Self-hosted LLM inference on AWS EKS: vLLM serving Mistral-7B with EBS-backed model storage,
             CDK-provisioned GPU nodes, a dedicated inference gateway, and observability for serving throughput.
           </p>
           <ul class="project-highlights">
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-              vLLM model server on EKS with the EBS CSI driver for fast model snapshot mounting.
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-              GPU cluster and inference infrastructure provisioned as code with AWS CDK.
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-              Model pipeline: Hugging Face download to S3 artifact store to EBS-backed serving path.
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-              Dedicated inference and gateway namespaces with observability for serving latency and throughput.
-            </li>
+            <li>vLLM model server on EKS with the EBS CSI driver for fast model snapshot mounting.</li>
+            <li>GPU cluster and inference infrastructure provisioned as code with AWS CDK.</li>
+            <li>Model pipeline: Hugging Face download to S3 artifact store to EBS-backed serving path.</li>
+            <li>Dedicated inference and gateway namespaces with observability for serving latency and throughput.</li>
           </ul>
           <div class="project-tech">
             <span class="tech-pill">vLLM</span>
@@ -550,284 +309,269 @@
             <span class="tech-pill">Kubernetes</span>
           </div>
           <div class="project-links">
-            <a href="https://github.com/arunksingh16/ai-projects/tree/main/eks-vllm-inference" target="_blank" class="btn btn-secondary btn-sm"
-              id="eks-vllm-github-link">
-              <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path
-                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-              </svg>
-              GitHub Code
-            </a>
+            <a href="https://github.com/arunksingh16/ai-projects/tree/main/eks-vllm-inference" target="_blank"
+              rel="noopener" class="text-link" id="eks-vllm-github-link">GitHub code <span
+                aria-hidden="true">→</span></a>
           </div>
-        </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section container" id="skills-section">
+      <div class="section-header reveal">
+        <p class="section-tag">Engineering profile</p>
+        <h2 class="section-title">Core competencies</h2>
       </div>
 
+      <div class="skills-grid" id="technical-skills-dashboard">
+
+        <div class="skills-card wide reveal" id="skills-cat-leadership">
+          <h3 class="skills-title">Enterprise Leadership &amp; Strategy</h3>
+          <div class="chips">
+            <span class="chip">Cloud Strategy &amp; Operating Models</span>
+            <span class="chip">Scaling 30+ to 50+ Engineers Organizations</span>
+            <span class="chip">Executive &amp; Board Audit Engagements</span>
+            <span class="chip">Multi-£M Budget &amp; FinOps Leadership</span>
+            <span class="chip">Compliance Frameworks (ISO27001, SOC2)</span>
+            <span class="chip">Platform Maturity Programs (OpsSpectrum)</span>
+            <span class="chip">Cross-Functional Executive Collaboration</span>
+            <span class="chip">Vendor &amp; Tool Strategy &amp; Contract Alignment</span>
+          </div>
+        </div>
+
+        <div class="skills-card reveal" id="skills-cat-iac">
+          <h3 class="skills-title">Cloud &amp; Platform Engineering</h3>
+          <div class="chips">
+            <span class="chip">AWS (Primary)</span>
+            <span class="chip">Azure</span>
+            <span class="chip">GCP</span>
+            <span class="chip">IaC (Terraform / CDK / Bicep)</span>
+            <span class="chip">Kubernetes</span>
+            <span class="chip">Reference Architectures</span>
+          </div>
+        </div>
+
+        <div class="skills-card reveal" id="skills-cat-cloud">
+          <h3 class="skills-title">SRE &amp; Observability</h3>
+          <div class="chips">
+            <span class="chip">SLIs / SLOs / Error Budgets</span>
+            <span class="chip">MTTR Reduction</span>
+            <span class="chip">High Availability (HA/DR)</span>
+            <span class="chip">Mission-Critical Workloads</span>
+            <span class="chip">New Relic</span>
+            <span class="chip">CloudWatch &amp; Azure Monitor</span>
+          </div>
+        </div>
+
+        <div class="skills-card reveal" id="skills-cat-aiops">
+          <h3 class="skills-title">AI Inference &amp; LLMOps</h3>
+          <div class="chips">
+            <span class="chip">vLLM (Primary Inference Engine)</span>
+            <span class="chip">SGLang</span>
+            <span class="chip">Continuous Batching</span>
+            <span class="chip">KV-Cache Management</span>
+            <span class="chip">Quantization (AWQ / GPTQ / FP8)</span>
+            <span class="chip">LLM Inference Serving &amp; Optimization</span>
+            <span class="chip">AWS Bedrock</span>
+            <span class="chip">Azure AI Foundry</span>
+            <span class="chip">MCP Framework</span>
+            <span class="chip">AI Agent Deployments</span>
+            <span class="chip">LLMOps &amp; MLOps</span>
+            <span class="chip">Latency SLOs for LLMs</span>
+          </div>
+        </div>
+
+        <div class="skills-card reveal" id="skills-cat-ops">
+          <h3 class="skills-title">Governance, Security &amp; FinOps</h3>
+          <div class="chips">
+            <span class="chip">Security-by-Design</span>
+            <span class="chip">Risk &amp; Audit (ISO27001 / SOC2)</span>
+            <span class="chip">Policy-as-Code</span>
+            <span class="chip">Cost Governance &amp; Rightsizing</span>
+            <span class="chip">Multi-£M Spend Optimization</span>
+            <span class="chip">Director-level Leadership</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Work Experience -->
+    <section class="section container" id="experience-section">
+      <div class="section-header reveal">
+        <p class="section-tag">Professional journey</p>
+        <h2 class="section-title">Work history</h2>
+      </div>
+
+      <ol class="timeline" id="experience-timeline">
+
+        <li class="role reveal" id="exp-role-principal">
+          <div class="role-date">Apr 2025 – Present</div>
+          <div class="role-body">
+            <h3 class="role-title">Principal Cloud Engineer</h3>
+            <p class="role-company">Sage · Manchester, UK</p>
+            <p class="role-summary">Technical leadership owning cloud platform architecture, governance, and reliability
+              across AWS and Azure for a global SaaS business.</p>
+            <ul class="role-points">
+              <li>Architecting operational frameworks for AI Agent workloads on Azure AI Foundry and AWS Bedrock
+                (latency SLOs, graceful degradation, cost-aware inference governance).</li>
+              <li>Driving LLM inference engineering with vLLM and SGLang: self-hosted model serving on Kubernetes,
+                continuous batching and KV-cache tuning, and latency SLOs alongside managed services.</li>
+              <li>Act as the accountable executive lead for cloud governance and security controls across multi-cloud
+                estates.</li>
+              <li>Delivered 10% cloud cost reduction via AI spend reviews and reduced MTTR of major incidents by 30%.
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="role reveal" id="exp-role-manager">
+          <div class="role-date">Aug 2022 – Mar 2025</div>
+          <div class="role-body">
+            <h3 class="role-title">Cloud Operations Manager</h3>
+            <p class="role-company">Sage · Manchester, UK</p>
+            <p class="role-summary">Accountable executive for cloud operations across 50+ AWS accounts and 15+ Azure
+              subscriptions, owning governance, security, reliability, and cost for a regulated global SaaS estate.</p>
+            <ul class="role-points">
+              <li>Built and scaled a CloudOps organization of 30+ engineers across platform, DevOps, and product squads.
+              </li>
+              <li>Defined reference architectures and IaC governance using Terraform and AWS CDK.</li>
+              <li>Launched OpsSpectrum, an internal cloud operational maturity program systematically closing
+                security/governance gaps.</li>
+              <li>Achieved 99.9% uptime for 15+ production services, owning SLIs, SLOs, and error budgets.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="role reveal" id="exp-role-senior">
+          <div class="role-date">Feb 2022 – Jul 2022</div>
+          <div class="role-body">
+            <h3 class="role-title">Senior Cloud Operations Engineer</h3>
+            <p class="role-company">Sage · Manchester, UK</p>
+            <ul class="role-points">
+              <li>Stabilized cloud operations across AWS production workloads, contributing to 99.9% uptime.</li>
+              <li>Built and maintained infrastructure CI/CD pipelines using GitHub Actions and Azure DevOps.</li>
+              <li>Deployed and managed infrastructure using Terraform, CloudFormation, and AWS CDK.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="role reveal" id="exp-role-tcs-manager">
+          <div class="role-date">Apr 2020 – Feb 2022</div>
+          <div class="role-body">
+            <h3 class="role-title">DevOps Manager</h3>
+            <p class="role-company">Tata Consultancy Services · AXA XL (Insurance) · UK</p>
+            <p class="role-summary">Cloud platform and DevOps transformation for a regulated global insurance client
+              under strict risk and compliance frameworks.</p>
+            <ul class="role-points">
+              <li>Led end-to-end cloud migration and platform architecture on AWS and Azure, reducing costs by 15%.</li>
+              <li>Defined reference architectures and CI/CD patterns using Azure DevOps, OpenShift, Helm, and
+                Terraform.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="role reveal" id="exp-role-tcs-engineer">
+          <div class="role-date">Apr 2019 – Mar 2020</div>
+          <div class="role-body">
+            <h3 class="role-title">DevOps Engineer / SRE</h3>
+            <p class="role-company">TCS · UK Home Office (DBS) · UK</p>
+            <ul class="role-points">
+              <li>Delivered infrastructure automation for mission-critical government services using Ansible, Python,
+                and shell scripting.</li>
+              <li>Automating WebLogic/Fusion Middleware stacks with full change audit trails and security governance
+                compliance under government security standards.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="role reveal" id="exp-role-tcs-infra">
+          <div class="role-date">Jun 2016 – Mar 2019</div>
+          <div class="role-body">
+            <h3 class="role-title">Senior Infrastructure Engineer</h3>
+            <p class="role-company">TCS · UK Home Office (DBS) · UK</p>
+            <ul class="role-points">
+              <li>Led infrastructure engineering team supporting 7+ environments with zero-tolerance availability
+                requirements.</li>
+              <li>Deployed Oracle IDM identity lifecycle solutions at enterprise scale, authoring HLD/LLD
+                documentations.</li>
+            </ul>
+          </div>
+        </li>
+
+      </ol>
+    </section>
+
+    <!-- Certifications & Education -->
+    <section class="section container" id="education-section">
+      <div class="section-header reveal">
+        <p class="section-tag">Qualifications</p>
+        <h2 class="section-title">Certifications &amp; education</h2>
+      </div>
+
+      <div class="edu-grid" id="edu-certs-container">
+        <div class="skills-card reveal" id="certs-block">
+          <h3 class="skills-title">Professional certifications</h3>
+          <ul class="cert-list">
+            <li>Certified Kubernetes Administrator (CKA)</li>
+            <li>GitHub Foundations</li>
+            <li>Microsoft Certified: Azure Fundamentals (AZ-900)</li>
+            <li>Oracle Cloud Infrastructure Architect Associate</li>
+            <li>Oracle Cloud Platform Identity &amp; Security Management</li>
+          </ul>
+        </div>
+
+        <div class="skills-card reveal" id="edu-block">
+          <h3 class="skills-title">Academic foundation</h3>
+          <div class="degree">
+            <p class="degree-name">Bachelor of Technology (B.Tech)</p>
+            <p class="degree-field">Computer Science &amp; Engineering</p>
+            <p class="degree-school">Raj Kumar Goel Institute of Technology, Ghaziabad</p>
+            <span class="degree-years">2005 – 2009</span>
+          </div>
+          <p class="footnote">Earlier roles (2009–2016) include Middleware Administrator at TCS, and Senior Software
+            Engineer roles. Details available upon request.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Connect -->
+    <section class="section container" id="connect-section">
+      <div class="connect-card reveal">
+        <p class="section-tag">Get in touch</p>
+        <h2 class="section-title">Let's connect</h2>
+        <p class="connect-text">
+          I am always interested in discussing enterprise cloud architectures, governance and audit engagements, cost
+          optimization reviews, or operationalizing AI workloads. Reach out via any of my channels.
+        </p>
+        <p class="location" id="direct-contact-info">📍 Manchester, United Kingdom</p>
+        <div class="socials" id="social-links-grid">
+          <a href="https://linkedin.com/in/arunksingh16" target="_blank" rel="noopener" class="social-link"
+            id="social-linkedin">LinkedIn</a>
+          <a href="https://github.com/arunksingh16" target="_blank" rel="noopener" class="social-link"
+            id="social-github">GitHub</a>
+          <a href="https://stackoverflow.com/users/17016596/arun" target="_blank" rel="noopener" class="social-link"
+            id="social-stackoverflow">Stack Overflow</a>
+          <a href="https://arunksingh16.medium.com" target="_blank" rel="noopener" class="social-link"
+            id="social-medium">Medium</a>
+          <a href="https://dev.to/arunksingh16" target="_blank" rel="noopener" class="social-link"
+            id="social-devto">Dev.to</a>
+          <a href="https://linktr.ee/arunksingh" target="_blank" rel="noopener" class="social-link"
+            id="social-linktree">Linktree</a>
+          <a href="https://twitter.com/arun16" target="_blank" rel="noopener" class="social-link"
+            id="social-twitter">Twitter</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Arun Kumar Singh. Built with plain HTML, CSS and JS, served via GitHub Pages.</p>
     </div>
-  </section>
-
-  <!-- Work Experience Section -->
-  <section class="section" id="experience-section">
-    <div class="section-header reveal">
-      <span class="section-tag">PROFESSIONAL JOURNEY</span>
-      <h2 class="section-title">Work <span class="grad">History</span></h2>
-    </div>
-
-    <div class="timeline reveal" id="experience-timeline">
-
-      <!-- Timeline Item 1: Sage Principal -->
-      <div class="timeline-item left" id="exp-role-principal">
-        <div class="timeline-content">
-          <div class="timeline-date">Apr 2025 - Present</div>
-          <h3 class="timeline-title">Principal Cloud Engineer</h3>
-          <div class="timeline-company">Sage | Manchester, UK</div>
-          <p class="timeline-desc" style="margin-bottom: 0.5rem; font-style: italic;">
-            Technical leadership owning cloud platform architecture, governance, and reliability across AWS and Azure
-            for a global SaaS business.
-          </p>
-          <p class="timeline-desc">
-            • Architecting operational frameworks for AI Agent workloads on Azure AI Foundry and AWS Bedrock (latency
-            SLOs, graceful degradation, cost-aware inference governance).<br>
-            • Developed lightweight MCP-based frameworks allowing engineering teams to build and deploy production-grade
-            AI Agent solutions.<br>
-            • Act as the accountable executive lead for cloud governance and security controls across multi-cloud
-            estates.<br>
-            • Delivered 10% cloud cost reduction via AI spend reviews and reduced MTTR of major incidents by 30%.
-          </p>
-        </div>
-      </div>
-
-      <!-- Timeline Item 2: Sage Manager -->
-      <div class="timeline-item right" id="exp-role-manager">
-        <div class="timeline-content">
-          <div class="timeline-date">Aug 2022 - Mar 2025</div>
-          <h3 class="timeline-title">Cloud Operations Manager</h3>
-          <div class="timeline-company">Sage | Manchester, UK</div>
-          <p class="timeline-desc" style="margin-bottom: 0.5rem; font-style: italic;">
-            Accountable executive for cloud operations across 50+ AWS accounts and 15+ Azure subscriptions — owning
-            governance, security, reliability, and cost for a regulated global SaaS estate.
-          </p>
-          <p class="timeline-desc">
-            • Built and scaled a CloudOps organization of 30+ engineers across platform, DevOps, and product squads.<br>
-            • Defined reference architectures and IaC governance using Terraform and AWS CDK.<br>
-            • Launched OpsSpectrum, an internal cloud operational maturity program systematically closing
-            security/governance gaps.<br>
-            • Achieved 99.9% uptime for 15+ production services, owning SLIs, SLOs, and error budgets.
-          </p>
-        </div>
-      </div>
-
-      <!-- Timeline Item 3: Sage Senior -->
-      <div class="timeline-item left" id="exp-role-senior">
-        <div class="timeline-content">
-          <div class="timeline-date">Feb 2022 - Jul 2022</div>
-          <h3 class="timeline-title">Senior Cloud Operations Engineer</h3>
-          <div class="timeline-company">Sage | Manchester, UK</div>
-          <p class="timeline-desc">
-            • Stabilized cloud operations across AWS production workloads, contributing to 99.9% uptime.<br>
-            • Built and maintained infrastructure CI/CD pipelines using GitHub Actions and Azure DevOps.<br>
-            • Deployed and managed infrastructure using Terraform, CloudFormation, and AWS CDK.
-          </p>
-        </div>
-      </div>
-
-      <!-- Timeline Item 4: TCS Manager -->
-      <div class="timeline-item right" id="exp-role-tcs-manager">
-        <div class="timeline-content">
-          <div class="timeline-date">Apr 2020 - Feb 2022</div>
-          <h3 class="timeline-title">DevOps Manager</h3>
-          <div class="timeline-company">Tata Consultancy Services · AXA XL (Insurance) | UK</div>
-          <p class="timeline-desc" style="margin-bottom: 0.5rem; font-style: italic;">
-            Cloud platform and DevOps transformation for a regulated global insurance client under strict risk and
-            compliance frameworks.
-          </p>
-          <p class="timeline-desc">
-            • Led end-to-end cloud migration and platform architecture on AWS and Azure, reducing costs by 15%.<br>
-            • Defined reference architectures and CI/CD patterns using Azure DevOps, OpenShift, Helm, and Terraform.
-          </p>
-        </div>
-      </div>
-
-      <!-- Timeline Item 5: TCS Engineer -->
-      <div class="timeline-item left" id="exp-role-tcs-engineer">
-        <div class="timeline-content">
-          <div class="timeline-date">Apr 2019 - Mar 2020</div>
-          <h3 class="timeline-title">DevOps Engineer / SRE</h3>
-          <div class="timeline-company">TCS · UK Home Office (DBS) | UK</div>
-          <p class="timeline-desc">
-            • Delivered infrastructure automation for mission-critical government services using Ansible, Python, and
-            shell scripting.<br>
-            • Automating WebLogic/Fusion Middleware stacks with full change audit trails and security governance
-            compliance under government security standards.
-          </p>
-        </div>
-      </div>
-
-      <!-- Timeline Item 6: TCS Senior Infra -->
-      <div class="timeline-item right" id="exp-role-tcs-infra">
-        <div class="timeline-content">
-          <div class="timeline-date">Jun 2016 - Mar 2019</div>
-          <h3 class="timeline-title">Senior Infrastructure Engineer</h3>
-          <div class="timeline-company">TCS · UK Home Office (DBS) | UK</div>
-          <p class="timeline-desc">
-            • Led infrastructure engineering team supporting 7+ environments with zero-tolerance availability
-            requirements.<br>
-            • Deployed Oracle IDM identity lifecycle solutions at enterprise scale, authoring HLD/LLD documentations.
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Certifications & Education Section -->
-  <section class="section" id="education-section">
-    <div class="section-header reveal">
-      <span class="section-tag">ACCOLADES & QUALIFICATIONS</span>
-      <h2 class="section-title">Certifications & <span class="grad">Education</span></h2>
-    </div>
-
-    <div class="skills-container reveal" id="edu-certs-container"
-      style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2.5rem;">
-
-      <!-- Certifications -->
-      <div class="skills-category" id="certs-block">
-        <h3 class="skills-cat-title">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-            stroke-linejoin="round">
-            <circle cx="12" cy="8" r="7"></circle>
-            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
-          </svg>
-          Professional Certifications
-        </h3>
-        <div class="skills-list" style="display: flex; flex-direction: column; gap: 0.75rem; align-items: flex-start;">
-          <div class="skill-tag" style="width: 100%; justify-content: flex-start; cursor: default;">
-            🎓 <strong>Certified Kubernetes Administrator (CKA)</strong>
-          </div>
-          <div class="skill-tag" style="width: 100%; justify-content: flex-start; cursor: default;">
-            🎓 <strong>GitHub Foundations</strong> — GitHub
-          </div>
-          <div class="skill-tag" style="width: 100%; justify-content: flex-start; cursor: default;">
-            🎓 <strong>Microsoft Certified: Azure Fundamentals (AZ-900)</strong>
-          </div>
-          <div class="skill-tag" style="width: 100%; justify-content: flex-start; cursor: default;">
-            🎓 <strong>Oracle Cloud Infrastructure Architect Associate</strong>
-          </div>
-          <div class="skill-tag" style="width: 100%; justify-content: flex-start; cursor: default;">
-            🎓 <strong>Oracle Cloud Platform Identity & Security Management</strong>
-          </div>
-        </div>
-      </div>
-
-      <!-- Education -->
-      <div class="skills-category" id="edu-block"
-        style="display: flex; flex-direction: column; justify-content: space-between;">
-        <div>
-          <h3 class="skills-cat-title">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round">
-              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
-              <path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path>
-            </svg>
-            Academic Foundation
-          </h3>
-          <div
-            style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); padding: 1.5rem; border-radius: 12px; margin-top: 1rem;">
-            <h4
-              style="font-family: var(--font-heading); font-size: 1.15rem; color: var(--primary); margin-bottom: 0.5rem;">
-              Bachelor of Technology (B.Tech)</h4>
-            <p style="font-size: 0.95rem; font-weight: 600; color: var(--text-main); margin-bottom: 0.25rem;">Computer
-              Science & Engineering</p>
-            <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.75rem;">Raj Kumar Goel Institute of
-              Technology, Ghaziabad</p>
-            <p
-              style="font-family: var(--font-code); font-size: 0.8rem; color: var(--primary); background: rgba(0, 242, 254, 0.08); padding: 0.25rem 0.5rem; border-radius: 4px; display: inline-block;">
-              Graduated: 2005 – 2009</p>
-          </div>
-        </div>
-        <div style="margin-top: 1.5rem; font-size: 0.85rem; color: var(--text-muted); font-style: italic;">
-          * Earlier roles (2009–2016) include Middleware Administrator at TCS, and Senior Software Engineer roles.
-          Details available upon request.
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Connect / Let's Connect Footer -->
-  <section class="section" id="connect-section">
-    <div class="connect-container reveal">
-      <span class="section-tag">GET IN TOUCH</span>
-      <h2 class="section-title">Let's <span class="grad">Connect</span></h2>
-      <p class="hero-subtitle">
-        I am always interested in discussing enterprise cloud architectures, governance and audit engagements, cost
-        optimization reviews, or operationalizing AI workloads. Reach out via any of my channels:
-      </p>
-
-      <div style="font-family: var(--font-code); font-size: 1rem; color: var(--primary); margin-bottom: 2rem;"
-        id="direct-contact-info">
-        📍 Manchester, United Kingdom
-      </div>
-
-      <div class="socials-row" id="social-links-grid">
-        <a href="https://linkedin.com/in/arunksingh16" target="_blank" class="social-card" id="social-linkedin">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-            <rect x="2" y="9" width="4" height="12"></rect>
-            <circle cx="4" cy="4" r="2"></circle>
-          </svg>
-          LinkedIn
-        </a>
-        <a href="https://stackoverflow.com/users/17016596/arun" target="_blank" class="social-card"
-          id="social-stackoverflow">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path
-              d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
-            </path>
-          </svg>
-          StackOverflow
-        </a>
-        <a href="https://arunksingh16.medium.com" target="_blank" class="social-card" id="social-medium">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path
-              d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z">
-            </path>
-          </svg>
-          Medium Blog
-        </a>
-        <a href="https://dev.to/arunksingh16" target="_blank" class="social-card" id="social-devto">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-          </svg>
-          Dev.to
-        </a>
-        <a href="https://linktr.ee/arunksingh" target="_blank" class="social-card" id="social-linktree">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-          </svg>
-          Linktree
-        </a>
-        <a href="https://twitter.com/arun16" target="_blank" class="social-card" id="social-twitter">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path
-              d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
-            </path>
-          </svg>
-          Twitter
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer id="site-footer">
-    <p>&copy; 2026 Arun Kumar Singh. Built with Vanilla HTML, CSS, and JS. Served securely via GitHub Pages.</p>
   </footer>
 
   <script src="app.js"></script>
